@@ -5,7 +5,7 @@ let handler = m => m
 handler.before = async function (m) {
     let id = m.chat
     let benarnya = 'https://telegra.ph/file/ab725c3de31e39bf3a08a.jpg'
-    if (!m.quoted || !m.quoted.fromMe || m.text || !m.text || !/Ketik.*hint/i.test(m.quoted.text) || /.*hint/i.test(m.text))
+    if (!m.quoted || !m.quoted.fromMe || !m.text || !/Ketik.*hint/i.test(m.quoted.text) || /.*hint/i.test(m.text))
         return !0
     this.tebakgambar = this.tebakgambar ? this.tebakgambar : {}
     if (!(id in this.tebakgambar))

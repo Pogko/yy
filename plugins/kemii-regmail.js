@@ -31,7 +31,7 @@ let handler = async function (m, { conn, args, usedPrefix, command }) {
          },
          to: args[0],
          subject: 'Email Verification',
-         html: `<div style="padding:20px;border:1px dashed #222;font-size:15px"><tt>Hi <b>${name} 😘</b><br><br><img src="https://telegra.ph/file/59bb57ffc5a86f2036055.jpg" alt="Thumbnail"><br><br>Confirm your email to be able to use Kiku-san. Send this code to the bot and it will expire in 3 minutes.<br><center><h1>${code}</h1></center>Or copy and paste the URL below into your browser : <a href="https://wa.me/${kemii}?text=${code}">https://wa.me/${kemii}?text=${code}</a><br><br><hr style="border:0px; border-top:1px dashed #222"><br>Powered by: <b>dcodekemii</b></tt></div>`
+         html: `<div style="padding:20px;border:1px dashed #222;font-size:15px"><tt>Hi <b>${name} 😘</b><br><br><img src="https://telegra.ph/file/7aeeb22ce0062dbd4c656.png" alt="Thumbnail"><br><br>Confirm your email to be able to use Ambatubot. Send this code to the bot and it will expire in 3 minutes.<br><center><h1>${code}</h1></center>Or copy and paste the URL below into your browser : <a href="https://wa.me/${kemii}?text=${code}">https://wa.me/${kemii}?text=${code}</a><br><br><hr style="border:0px; border-top:1px dashed #222"><br>Powered by: <b>amat</b></tt></div>`
       }
       transport.sendMail(mailOptions, function(err, data) {
          if (err) return m.reply(Func.texted('bold', `❌ SMTP Error !!`))

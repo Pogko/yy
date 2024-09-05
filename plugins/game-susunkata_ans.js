@@ -20,7 +20,7 @@ handler.before = async function (m) {
       this.sendImageAsSticker(m.chat, betul, m, { packname: `+${this.susunkata[id][2]} Point`})
       clearTimeout(this.susunkata[id][3]);
       delete this.susunkata[id];
-    } else this.sendImageAsSticker(m.chat, salah, m, { packname: `Ig : @dcodekemii`})
+    } else this.sendImageAsSticker(m.chat, salah, m, { packname: `@ambatubot`})
   }
   return !0;
 };

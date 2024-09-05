@@ -19,7 +19,7 @@ let msg = generateWAMessageFromContent(m.chat, {
         	mentionedJid: [m.sender], 
         	isForwarded: false,
             externalAdReply: {  
-            title: 'DCODEKEMII', 
+            title: 'AMBATUBOT', 
             thumbnailUrl: 'https://telegra.ph/file/a6f3ef42e42efcf542950.jpg', 
             sourceUrl: 'https://youtube.com/shorts/eHM3CMiAQ9Y?si=sqJQ1gyRAnptIK0m',
             mediaType: 2,

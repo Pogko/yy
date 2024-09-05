@@ -31,7 +31,7 @@ const A = `<!DOCTYPE html>
 
 <head>
 <title>Panda.. - Script HTML buat Kamu</title>
-<meta name="description" content="Facebook lennaa.houkii - Script HTML by dcodekemii">
+<meta name="description" content="Facebook lennaa.houkii - Script HTML by ambatubot">
 </head>
 <body>
 	

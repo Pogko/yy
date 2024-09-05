@@ -60,7 +60,7 @@ handler.all = async function (m) {
           contextInfo: {
           externalAdReply: {
           showAdAttribution: true,
-          title: 'DCODEKEMII',
+          title: 'AMBATUBOT',
           body: ucapan,
           thumbnailUrl: pp
           }

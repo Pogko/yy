@@ -88,7 +88,7 @@ async function handler(m, { conn, usedPrefix, command, text }) {
     contextInfo: {
       externalAdReply: {
         title: 'B L A C K - J A C K',
-        body: "DCODEKEMII",
+        body: "AMBATUBOT",
         thumbnailUrl: "https://telegra.ph/file/1703cff0a758d0ef8f84f.png",
         mediaType: 1,
         renderLargerThumbnail: true

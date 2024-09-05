@@ -718,7 +718,7 @@ renderLargerThumbnail: true
                             mentionedJid: [user],
                             externalAdReply: {
                             showAdAttribution: true,
-                            title: 'DCODEKEMII',
+                            title: 'AMBATUBOT',
                             thumbnailUrl: pp,
                             sourceUrl: 'https://chat.whatsapp.com/FDf5DkIdNOLHNiRO6eh5s3',
                             mediaType: 1,

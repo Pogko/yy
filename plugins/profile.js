@@ -8,7 +8,7 @@ let handler = async (m, { conn, command }) => {
     if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender;
     else who = m.quoted.sender ? m.quoted.sender : m.sender;
 
-    let ppUrl = await conn.profilePictureUrl(who, 'image').catch((_) => "https://telegra.ph/file/59bb57ffc5a86f2036055.jpg");
+    let ppUrl = await conn.profilePictureUrl(who, 'image').catch((_) => "https://telegra.ph/file/7aeeb22ce0062dbd4c656.png");
     let pp = await (await fetch(ppUrl)).buffer();
 
     let user = global.db.data.users[who];
@@ -51,15 +51,15 @@ let handler = async (m, { conn, command }) => {
     contextInfo: {
     mentionedJid: [m.sender],
     externalAdReply: {
-    title: 'DCODEKEMII',
-    body: 'Version: 3.0.1',
+    title: 'AMBATUBOT',
+    body: 'Version: 1.0.0',
     thumbnailUrl: ppUrl,
     mediaType: 1,
     renderLargerThumbnail: true
     }}}, {quoted: m})
   } catch {
     let sender = m.sender;;
-    let ppUrl = await conn.profilePictureUrl(sender, 'image').catch((_) => "https://telegra.ph/file/59bb57ffc5a86f2036055.jpg");
+    let ppUrl = await conn.profilePictureUrl(sender, 'image').catch((_) => "https://telegra.ph/file/7aeeb22ce0062dbd4c656.png");
     let pp = await (await fetch(ppUrl)).buffer();
 
     let user = global.db.data.users[sender];

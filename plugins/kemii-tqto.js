@@ -18,13 +18,13 @@ tqto += `│  ◦  _Nasrull_\n`
 tqto += `│  ◦  _Wildan_\n`
 tqto += `│  ◦  *_Kemii_* -> ${nomorown}\n`
 tqto += `└  ◦  _BochilGaming_\n\n`
-tqto += `ᴋɪᴋᴜ - ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ᴛᴀᴋᴀꜱʜɪ ᴋᴇᴍɪɪ`
+tqto += `ᴀᴍʙᴀᴛᴜʙᴏᴛ`
 conn.sendMessage(m.chat, {
 text: `${sc}\n\n${tqto}`,
 contextInfo: {
 mentionedJid: [m.sender],
 externalAdReply: {
-title: 'DCODEKEMII',
+title: 'AMBATUBOT',
 thumbnailUrl: 'https://telegra.ph/file/ac299e01e76c911d7f25a.jpg',
 mediaType: 1,
 renderLargerThumbnail: true

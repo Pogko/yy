@@ -29,7 +29,7 @@ body: {
 text: `\n${ini.result}\n`
 },
 footer: {
-text: 'Powered by : dcodekemii'
+text: 'Powered by : ambatubot'
 },
 header: {
 title: '`AI - HUTAO`',

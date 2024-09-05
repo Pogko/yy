@@ -24,7 +24,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 
 
         // conn.sendMessage(m.chat, { url: "https://api.telegram.org/file/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/" + jisin.result.file_path }, MessageType.sticker)
-        let stiker = await sticker(false, "https://api.telegram.org/file/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/" + jisin.result.file_path, '', 'dcodekemii')
+        let stiker = await sticker(false, "https://api.telegram.org/file/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/" + jisin.result.file_path, '', 'ambatubot')
         await conn.sendMessage(m.chat, {sticker: stiker })
         await delay(1500)
     }

@@ -10,7 +10,7 @@ let handler = async (m, { conn, text, command }) => {
 	◦  *Views :* ${res.play_count}
 	◦  *Author :* ${res.author.nickname}
 	
-ᴋɪᴋᴜ - ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ᴛᴀᴋᴀꜱʜɪ ᴋᴇᴍɪɪ`
+ᴀᴍʙᴀᴛᴜʙᴏᴛ`
   conn.sendFile(m.chat, res.play, 'tiktokt.mp4', salsa, m)
 }
 handler.help = ['tiktoktrending']

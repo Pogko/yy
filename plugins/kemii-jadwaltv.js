@@ -28,7 +28,7 @@ function JadwalTV(query) {
                 tv.push(`> _${an[0]} - ${an[1]}_`)
             })
             if (tv.every(x => x === undefined)) return resolve({
-                developer: 'dcodekemii',
+                developer: 'Amat',
                 mess: 'no result found'
             })
             resolve(tv.join('\n'))

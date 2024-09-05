@@ -15,7 +15,7 @@ let handler = async (m, { conn, args }) => {
   capt += `│  ◦  *Limit* : ${limit}\n`
   capt += `│  ◦  *Balance* : ${balance}\n`
   capt += `└  ◦  *Bank* : ${atm}\n\n`
-  capt += `ᴋɪᴋᴜ - ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ᴛᴀᴋᴀꜱʜɪ ᴋᴇᴍɪɪ`
+  capt += `ᴀᴍʙᴀᴛᴜʙᴏᴛ`
 
 conn.sendMessage(m.chat, {
 text: capt,

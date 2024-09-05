@@ -19,7 +19,7 @@ let handler = async (m, {
     if (text) {
         let mennuIndex = parseInt(text);
         if (isNaN(mennuIndex) || !mennu[mennuIndex]) {
-            conn.reply(m.chat, '```Silakan pilih menu dari daftar berikut:\n\n```' + Object.entries(mennu).map(([id, theme]) => `${id}. Menu ${mennu}`).join('\n') + `\n\nᴋɪᴋᴜ - ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ᴛᴀᴋᴀꜱʜɪ ᴋᴇᴍɪɪ`, m);
+            conn.reply(m.chat, '```Silakan pilih menu dari daftar berikut:\n\n```' + Object.entries(mennu).map(([id, theme]) => `${id}. Menu ${mennu}`).join('\n') + `\n\nᴀᴍʙᴀᴛᴜʙᴏᴛ`, m);
             return;
         }
         conn.menubot = {
@@ -27,7 +27,7 @@ let handler = async (m, {
         };
         conn.reply(m.chat, '```Menu berhasil diubah menjadi:```' + ` *${mennu[mennuIndex]}*`, m);
     } else {
-        conn.reply(m.chat, '```Silakan pilih menu dari daftar berikut:\n\n```' + Object.entries(mennu).map(([id, mennu]) => `${id}. Menu ${mennu}`).join('\n') + `\n\nᴋɪᴋᴜ - ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ᴛᴀᴋᴀꜱʜɪ ᴋᴇᴍɪɪ`, m);
+        conn.reply(m.chat, '```Silakan pilih menu dari daftar berikut:\n\n```' + Object.entries(mennu).map(([id, mennu]) => `${id}. Menu ${mennu}`).join('\n') + `\n\nᴀᴍʙᴀᴛᴜʙᴏᴛ`, m);
         return;
     }
 };

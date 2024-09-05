@@ -84,7 +84,7 @@ return message
                 title: 'System Notifications', 
                 body: `${moment().format('DD/MM/YY HH:mm:ss')}`,
                 thumbnailUrl: ppUrl,
-                sourceUrl: 'https://instagram.com/dcodekemii',
+                sourceUrl: 'https://instagram.com/ambatubot',
                 mediaType: 1,
                 renderLargerThumbnail: false
                 }
@@ -127,13 +127,13 @@ return message
     contextInfo: {
       mentionedJid: await conn.parseMention(text),
       externalAdReply: {
-        title: additionalInfo.title || '© 2019 - 2024 | Kikcuhanj',
+        title: additionalInfo.title || '© 2019 - 2024 | Ambatubot',
         body: additionalInfo.body || null,
         mediaType: 1,
         previewType: 0,
         showAdAttribution: !!(additionalInfo.ads && additionalInfo.ads),
         renderLargerThumbnail: !!(additionalInfo.largeThumb && additionalInfo.largeThumb),
-        thumbnailUrl: additionalInfo.thumbnail || 'https://telegra.ph/file/59bb57ffc5a86f2036055.jpg',
+        thumbnailUrl: additionalInfo.thumbnail || 'https://telegra.ph/file/7aeeb22ce0062dbd4c656.png',
         sourceUrl: additionalInfo.url || null
       }
     }

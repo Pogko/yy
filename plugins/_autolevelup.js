@@ -21,7 +21,7 @@ module.exports = {
 			let chating = `乂  *L E V E L  U P*\n\n`
 			chating += `┌  ◦ *Progress* : [ ${before} ] ➠ [ ${user.level} ]\n`
 			chating += `└  ◦ *Unlocked* : ${user.role}\n\n`
-			chating += `ᴋɪᴋᴜ - ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ᴛᴀᴋᴀꜱʜɪ ᴋᴇᴍɪɪ`.trim()
+			chating += `ᴀᴍʙᴀᴛᴜʙᴏᴛ`.trim()
 
 			const rank = new canvacord.Rank()
             .setAvatar(pp)

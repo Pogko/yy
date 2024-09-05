@@ -592,7 +592,7 @@ conn.relayMessage(msg.key.remoteJid, msg.message, { messageId: msg.key.id })
       businessMessageForwardInfo: { businessOwnerJid: '6288980870067@s.whatsapp.net' }, 
       forwardedNewsletterMessageInfo: {
       newsletterJid: '120363233854307054@newsletter',
-      newsletterName: 'Powered by : dcodekemii',
+      newsletterName: 'Powered by : ambatubot',
       serverMessageId: -1
       },      
       forwardingScore: 2023,      

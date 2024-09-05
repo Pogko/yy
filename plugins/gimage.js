@@ -19,7 +19,7 @@ let msg = generateWAMessageFromContent(m.chat, {
             text: "Donee"
           }),
           footer: proto.Message.InteractiveMessage.Footer.create({
-            text: 'DCODEKEMII'
+            text: 'AMBATUBOT'
           }),
           header: proto.Message.InteractiveMessage.Header.create({
             hasMediaAttachment: true,...(await prepareWAMessageMedia({ image: { url: link } }, { upload: conn.waUploadToServer }))

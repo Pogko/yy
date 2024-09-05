@@ -4,7 +4,7 @@ let {
 
 async function before(m) {
     if (global.db.data.users[m.sender].banned) return;
-    if (!m.quoted || !m.quoted.fromMe || m.text || !m.text) return true;
+    if (!m.quoted || !m.quoted.fromMe ||!m.text) return true;
 
     this.chessgame = this.chessgame || {};
     if (!this.chessgame[m.chat] || m.quoted.id != this.chessgame[m.chat].msg.key.id) return;

@@ -12,8 +12,8 @@ await conn.sendMessage(m.chat, {
 text: text,
 contextInfo: {
 externalAdReply: {
-title: 'DCODEKEMII',
-body: 'Version: 3.0.1',
+title: 'AMBATUBOT',
+body: 'Version: 1.0.0',
 thumbnailUrl: kemii.image,
 sourceUrl: kemii.url,
 mediaType: 1,

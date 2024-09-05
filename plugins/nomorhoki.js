@@ -2,7 +2,7 @@ const { Primbon } = require('scrape-primbon')
 const primbon = new Primbon()
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-  if (!text) return conn.reply(m.chat, `• *Example :* ${usedPrefix + command} 628816609112`, m)
+  if (!text) return conn.reply(m.chat, `• *Example :* ${usedPrefix + command} 6283830017500`, m)
   primbon.nomer_hoki(text).then((res) => {
     console.log(res)
     let dann = `

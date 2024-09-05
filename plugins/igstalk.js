@@ -1,7 +1,7 @@
 let fetch = require('node-fetch')
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-	if (!text) return conn.reply(m.chat, `• *Example :* ${usedPrefix + command} dcodekemii`, m)
+	if (!text) return conn.reply(m.chat, `• *Example :* ${usedPrefix + command} ambatubot`, m)
 	let kemii = await fetch(`https://api.lolhuman.xyz/api/stalkig/${text}?apikey=${global.lolkey}`)
 	let hasil = await kemii.json()
 	let ya = await hasil.result

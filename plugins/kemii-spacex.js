@@ -20,8 +20,8 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
     });    
     conn.sendMessageModify(m.chat, teks, m, {
         largeThumb: true,
-        title: 'DCODEKEMII',
-        body: 'Version: 3.0.2',
+        title: 'AMBATUBOT',
+        body: 'Version: 1.0.0',
         thumbnail: kemii.data[0].imageUrl
     });
 };

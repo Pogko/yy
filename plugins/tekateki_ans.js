@@ -3,7 +3,7 @@ const threshold = 0.72
 let handler = m => m
 handler.before = async function (m) {
     let id = m.chat
-    if (!m.quoted || !m.quoted.fromMe || m.text || !m.text) return false
+    if (!m.quoted || !m.quoted.fromMe || !m.text) return false
     this.tekateki = this.tekateki ? this.tekateki : {}
     if (!(id in this.tekateki)) return
     if (m.quoted.id == this.tekateki[id][0].id) {

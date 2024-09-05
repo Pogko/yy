@@ -3,7 +3,7 @@ let cheerio = require('cheerio')
 let FormData = require('form-data')
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-	if (!text) return conn.reply(m.chat, `• *Example :* ${usedPrefix + command} dcodekemii`, m)
+	if (!text) return conn.reply(m.chat, `• *Example :* ${usedPrefix + command} ambatubot`, m)
 	let salsa = `https://youtube.com/@${text}`
 	let kemii = await ytstalk(salsa)
 	if (kemii.error) return m.reply(kemii.msg);

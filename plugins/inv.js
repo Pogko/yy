@@ -117,8 +117,8 @@ let handler = async (m, { conn, usedPrefix }) => {
     contextInfo: {
     mentionedJid: [m.sender],
     externalAdReply: {
-    title: 'DCODEKEMII',
-    body: 'Version: 3.0.0',
+    title: 'AMBATUBOT',
+    body: 'Version: 1.0.0',
     thumbnailUrl: 'https://telegra.ph/file/ea3ee889b63edfb616c2d.jpg',
     mediaType: 1,
     renderLargerThumbnail: true

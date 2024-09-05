@@ -79,7 +79,7 @@ const defaultMenu = {
   header: '┌─〔 *%category* 〕',
   body: '│◦ %cmd',
   footer: '└────\n',
-  after: 'ᴋɪᴋᴜ - ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ᴛᴀᴋᴀꜱʜɪ ᴋᴇᴍɪɪ',
+  after: 'ᴀᴍʙᴀᴛᴜʙᴏᴛ',
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
 conn.sendMessage(m.chat, { react: { text: '🕒', key: m.key }})

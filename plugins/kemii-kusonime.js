@@ -18,8 +18,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     text: `${kata}\n*Powered By:* _https://kusonime.com_`,
     contextInfo: {
     externalAdReply: {
-    title: 'DCODEKEMII',
-    body: 'Version: 3.0.0',
+    title: 'AMBATUBOT',
+    body: 'Version: 1.0.0',
     thumbnailUrl: hasil.result.thumb,
     sourceUrl: hasil.result.url,
     mediaType: 1,

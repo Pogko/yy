@@ -41,13 +41,13 @@ let msg = generateWAMessageFromContent(m.chat, {
         	isForwarded: true, 
 	        forwardedNewsletterMessageInfo: {
 			newsletterJid: '120363144038483540@newsletter',
-			newsletterName: 'Powered By : dcodekemii', 
+			newsletterName: 'Powered By : ambatubot', 
 			serverMessageId: -1
 		},
 	businessMessageForwardInfo: { businessOwnerJid: conn.decodeJid(conn.user.id) },
 	forwardingScore: 256,
             externalAdReply: {  
-                title: 'DCODEKEMII', 
+                title: 'AMBATUBOT', 
                 thumbnailUrl: 'https://telegra.ph/file/a6f3ef42e42efcf542950.jpg', 
                 sourceUrl: 'https://youtube.com/shorts/eHM3CMiAQ9Y?si=sqJQ1gyRAnptIK0m',
                 mediaType: 2,

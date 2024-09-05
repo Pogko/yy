@@ -15,14 +15,14 @@ conn.sendMessage(m.chat, { react: { text: '🕒', key: m.key }})
         	isForwarded: true, 
 	        forwardedNewsletterMessageInfo: {
 			newsletterJid: '120363144038483540@newsletter',
-			newsletterName: 'Powered By : dcodekemii', 
+			newsletterName: 'Powered By : Ambatubot', 
 			serverMessageId: -1
 		},
 	businessMessageForwardInfo: { businessOwnerJid: conn.decodeJid(conn.user.id) },
 	forwardingScore: 256,
             externalAdReply: {  
-                title: 'DCODEKEMII', 
-                thumbnailUrl: 'https://telegra.ph/file/a6f3ef42e42efcf542950.jpg', 
+                title: 'AMBATUBOT', 
+                thumbnailUrl: 'https://telegra.ph/file/7aeeb22ce0062dbd4c656.png', 
                 sourceUrl: 'https://youtube.com/shorts/eHM3CMiAQ9Y?si=sqJQ1gyRAnptIK0m',
                 mediaType: 2,
                 renderLargerThumbnail: false
@@ -41,38 +41,38 @@ conn.sendMessage(m.chat, { react: { text: '🕒', key: m.key }})
           cards: [
             {
               body: proto.Message.InteractiveMessage.Body.fromObject({
-                text: '> *7 Days : 1.000*\n> *30 Days : 3.000*\n> *Permanen : 5.000*\n\n`</> Benefit Prem </>`\n\n> Get Unlimited Limit\n> Get Acces All Fitur\n> Get Profile Good'
+                text: '> *7 Days : 3.000*\n> *30 Days : 10.000*\n> *Permanen : 25.000*\n\n`</> Benefit Prem </>`\n\n> Get Unlimited Limit\n> Get Acces All Fitur\n> Get Profile Good'
               }),
               footer: proto.Message.InteractiveMessage.Footer.fromObject({
               }),
               header: proto.Message.InteractiveMessage.Header.fromObject({
                 title: '`</> Premium Bot </>`\n',
-                hasMediaAttachment: true,...(await prepareWAMessageMedia({ image: { url: 'https://telegra.ph/file/59bb57ffc5a86f2036055.jpg' } }, { upload: conn.waUploadToServer }))
+                hasMediaAttachment: true,...(await prepareWAMessageMedia({ image: { url: 'https://telegra.ph/file/7aeeb22ce0062dbd4c656.png' } }, { upload: conn.waUploadToServer }))
               }),
               nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.fromObject({
                 buttons: [
                   {
                     name: "cta_url",
-                    buttonParamsJson: `{"display_text":"Order Here!","url":"https://wa.me/628816609112","merchant_url":"https://wa.me/628816609112"}`
+                    buttonParamsJson: `{"display_text":"Order Here!","url":"https://wa.me/6283830017500","merchant_url":"https://wa.me/6283830017500"}`
                   }
                   ]
               })
             },
             {
               body: proto.Message.InteractiveMessage.Body.fromObject({
-                text: '> *7 Days : 2.000*\n> *30 Days : 4.000*\n> *Permanen : 7.000*\n\n`</> Benefit Sewa </>`\n\n> Auto Welcome\n> Auto Kick\n> Auto Open/Close'
+                text: '> *7 Days : 5.000*\n> *30 Days : 15.000*\n> *Permanen : 50.000*\n\n`</> Benefit Sewa </>`\n\n> Auto Welcome\n> Auto Kick\n> Auto Open/Close'
               }),
               footer: proto.Message.InteractiveMessage.Footer.fromObject({
               }),
               header: proto.Message.InteractiveMessage.Header.fromObject({
                 title: '`</> Sewa Bot </>`\n',
-                hasMediaAttachment: true,...(await prepareWAMessageMedia({ image: { url: 'https://telegra.ph/file/59bb57ffc5a86f2036055.jpg' } }, { upload: conn.waUploadToServer }))
+                hasMediaAttachment: true,...(await prepareWAMessageMedia({ image: { url: 'https://telegra.ph/file/7aeeb22ce0062dbd4c656.png' } }, { upload: conn.waUploadToServer }))
               }),
               nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.fromObject({
                 buttons: [
                   {
                     name: "cta_url",
-                    buttonParamsJson: `{"display_text":"Order Here!","url":"https://wa.me/628816609112","merchant_url":"https://wa.me/628816609112"}`
+                    buttonParamsJson: `{"display_text":"Order Here!","url":"https://wa.me/6283830017500","merchant_url":"https://wa.me/6283830017500"}`
                   }
                   ]
               })

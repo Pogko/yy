@@ -14,7 +14,7 @@ let q = m.quoted ? m.quoted : m
 		}
 	})
 	let scircle = `https://some-random-api.com/canvas/misc/circle?avatar=${url}`
-    let stiker = await sticker(null, scircle, 'Ig : @dcodekemii')
+    let stiker = await sticker(null, scircle, '@ambatubot')
     await conn.sendFile(m.chat, stiker, 'sticker.webp', '', m, { asSticker: true })
     await m.react('')
 }

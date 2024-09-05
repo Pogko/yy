@@ -11,8 +11,8 @@ _"How i can spin these cases?"_ we will release it soon as possible.`,
 		contextInfo: {
 			externalAdReply: {
 				showAdAttribution: true,
-				title: 'DCODEKEMII',
-				body: 'Version: 3.0.0',
+				title: 'AMBATUBOT',
+				body: 'Version: 1.0.0',
 				thumbnailUrl: 'https://telegra.ph/file/a0371b91b27062b283df8.jpg',
 				mediaType: 1,
 				renderLargerThumbnail: true

@@ -9,7 +9,7 @@ handler.before = async (m, { conn }) => {
         if (/^.*false|disable|(turn)?off|0/i.test(m.text)) return
 
         if (!m.text) return
-        if (m.text.match(global.prefix)) return
+        if (!m.text.match(global.prefix)) return
         
         let q = m.quoted ? m.quoted : m
 	    let mime = (q.msg || q).mimetype || ""

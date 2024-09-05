@@ -80,8 +80,8 @@ delete ut[m.chat]
     };
     if(!text || !Object.keys(kemii_cmd).includes(text)) return conn.sendMessage(m.chat, { text: `Halo! Selamat datang di Ular Tangga, permainan klasik yang penuh petualangan dan tantangan! Di sini, pemain harus melewati rintangan dan naik tangga untuk mencapai angka 100 dan menjadi pemenang. Tapi hati-hati, ada ular licin yang bisa membuatmu turun kembali, dan tangga yang akan membantumu meloncat lebih cepat ke puncak! 🐍🎲\n\nAyo, bergabunglah dalam petualangan seru di Ular Tangga dan rasakan keseruannya! 🎯🎮\n\nBerikut ini beberapa command ular tangga:\n${Object.keys(kemii_cmd).map(v => "⬡ "+v).join("\n")}\n\nContoh penggunaan: .ulartangga create`, contextInfo: {
             externalAdReply: {  
-                title: 'DCODEKEMII', 
-                body: 'Version: 3.0.1',
+                title: 'AMBATUBOT', 
+                body: 'Version: 1.0.0',
                 thumbnailUrl: "https://telegra.ph/file/f5d7192eea4848b112d7b.jpg", 
                 mediaType: 1,
                 renderLargerThumbnail: true
@@ -112,7 +112,7 @@ async function kocok(m, ut, conn) {
         if(players.indexOf(m.sender) !== turns) throw "Bukan giliran anda!";
         let warna = ["Merah","Kuning","Hijau","Biru"][players.indexOf(m.sender)]
         const dadu = Math.floor(Math.random() * 6 + 1)
-       let key = await conn.sendMessage(m.chat, { sticker: { url: `https://raw.githubusercontent.com/fgmods/fg-team/main/games/dados/${dadu}.webp` }, packname: "© dcodekemii", author: "Kemii" }, { quoted: m })
+       let key = await conn.sendMessage(m.chat, { sticker: { url: `https://raw.githubusercontent.com/fgmods/fg-team/main/games/dados/${dadu}.webp` }, packname: "© ambatubot", author: "amat" }, { quoted: m })
         ut[m.chat].turn += 1;
         ut[m.chat].players[m.sender].langkah += dadu;
         let langkah = ut[m.chat].players[m.sender].langkah - dadu

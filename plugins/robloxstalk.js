@@ -2,7 +2,7 @@
 // Min, 2 Jun - 03.53
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-	if (!text) return conn.reply(m.chat, `• *Example :* ${usedPrefix + command} dcodekemii`, m)
+	if (!text) return conn.reply(m.chat, `• *Example :* ${usedPrefix + command} ambatubot`, m)
 	await m.react('🕒')
 	let kemii = await robloxInfo(text)
 	let hasil = await kemii.userDetails

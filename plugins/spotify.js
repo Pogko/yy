@@ -43,8 +43,8 @@ handler.before = async (m, { conn }) => {
             externalAdReply: {
             showAdAttribution: false,
             mediaType: 1,
-            title: 'DCODEKEMII',
-            body: 'Version: 3.0.2',
+            title: 'AMBATUBOT',
+            body: 'Version: 1.0.0',
             thumbnailUrl: 'https://telegra.ph/file/ab0adc695a83b0bf7ed54.jpg',
             renderLargerThumbnail: true
             }}},{ quoted: m})

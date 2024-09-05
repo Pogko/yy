@@ -278,7 +278,7 @@ ctx.textBaseline = "middle";
 ctx.fillText(textCenter, canvasWidth / 2, canvasHeight / 2);
 
 // Menggambar teks di tengah bawah (lebih kecil)
-const textBottom = '@dcodekemii';
+const textBottom = '@ambatubot';
 ctx.font = "bold 60px Arial"; // Ukuran teks di bawah menjadi 50px
 ctx.fillStyle = "#fff";
 ctx.textAlign = "center"; // Teks di tengah

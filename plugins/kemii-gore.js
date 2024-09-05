@@ -12,7 +12,7 @@ let handler = async (m, { conn, text, command }) => {
 	◦  *Auhor :* ${res.data.author}
 	◦  *Views :* ${res.data.views}
 	
-ᴋɪᴋᴜ - ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ᴛᴀᴋᴀꜱʜɪ ᴋᴇᴍɪɪ`;
+ᴀᴍʙᴀᴛᴜʙᴏᴛ`;
   conn.sendFile(m.chat, res.data.video, 'gore.mp4', te, m)
    } catch (e) {
     console.log(e);

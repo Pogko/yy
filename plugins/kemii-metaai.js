@@ -2,7 +2,7 @@ let { generateWAMessageFromContent, proto, prepareWAMessageMedia } = require("@w
 let handler = async (m, { conn }) => {
 var contact = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "contactMessage": {
-"displayName": `DCODEKEMII`,
+"displayName": `AMBATUBOT`,
 "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:Khemii;Bot;;;\nFN:Khemii Bot\nTEL;type=Mobile;waid=13135550002:+62 838-9738-7848\nEND:VCARD",
 }
 }), { userJid: m.chat, quoted: m })
